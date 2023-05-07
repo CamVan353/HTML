@@ -2,10 +2,8 @@ body{
     margin: 0 2%;
     font-family: sans-serif;
 }
-
-
-
 /*==menu==*/
+/*
 #menu ul{
     display: flex;
     list-style: none;
@@ -33,10 +31,12 @@ body{
 .menu2 li {
     margin-top: 25px;
 }
+
 /*==phananhbanner==*/
-.phananh img{
-    width: 100%;
-    display: cover;
+.anhbanner img{
+    width: 86%;
+    margin: 0 100px;
+
 }
 .text1 .tieude {
     font-size: 20px;
@@ -52,29 +52,28 @@ body{
     left: 550px;
     color: white;
 }
-/*==phananh==*/
-.anh { 
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+.text2{
+    margin-left: 100px;
+    margin-top: 20px;
+
 }
-.anh img {
+/*==phananh==*/
+.row img {
     margin: 10px 0px;
-    width: 94%;
+    width: 100%;
     border-radius: 15px;
 }
 
 .anh3 img{
-    height: 628px;
-
+    height: 569px;
     width: 100%;
 }
 footer{
     display:flex;
-    
+}
+.left{
+    margin-left: 100px;
 }
 .right{
-    padding-left: 410px;
+    padding-left: 100px;
 }
