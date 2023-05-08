@@ -1,79 +1,167 @@
-body{
+/* For desktop: */
+body {
     margin: 0 2%;
-    font-family: sans-serif;
 }
-/*==menu==*/
-/*
-#menu ul{
-    display: flex;
-    list-style: none;
-}
-.menu1{
-    width: 100%;
-   
-}
-.menu1 img {
-    width: 10%;
 
-}
-.menu2{
-    width: 100%;
-    padding-left: 10%;
-}
-.menu2 img{
-    width: 15%;
-}
-.menu2 ul li a{
-    color: black;
-    text-decoration: none;
-    margin: 40px;
-}
-.menu2 li {
-    margin-top: 25px;
-}
+
 
 /*==phananhbanner==*/
-.anhbanner img{
-    width: 86%;
-    margin: 0 100px;
+
+.anhbanner {
+    display: cover;
+    margin: 0 5%;
+}
+
+.anhbanner img {
+    width: 100%;
+
 
 }
-.text1 .tieude {
+
+.tieude {
     font-size: 20px;
     position: absolute;
-    top: 120px;
-    left: 450px;
+    left: 30%;
+    top: 20%;
     color: rgb(202, 225, 233);
 }
+
+/* .tieude p{
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: rgb(202, 225, 233);
+
+} */
+
 .noidungtieude {
     font-size: 17px;
     position: absolute;
-    top: 190px;
-    left: 550px;
+    top: 27%;
+    left: 35%;
     color: white;
 }
-.text2{
-    margin-left: 100px;
-    margin-top: 20px;
+
+.text2 {
+    margin-left: 5%;
+    margin-top: 1%;
 
 }
+
 /*==phananh==*/
 .row img {
     margin: 10px 0px;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
-.anh3 img{
+.anh3 img {
     height: 569px;
     width: 100%;
 }
-footer{
-    display:flex;
+
+footer {
+    margin: 0 5%;
 }
+
+
+/*
 .left{
     margin-left: 100px;
 }
 .right{
     padding-left: 100px;
+}
+
+/* For mobile phones: */
+
+
+/* For tablets: */
+@media only screen and (min-width : 777px) and ( max-width: 1180px) {
+
+    .banner{
+        font-size: 10px;
+    } 
+
+    .anhbanner {
+        display: cover;
+    }
+
+    .anhbanner img {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .tieude {
+        position: absolute;
+        margin-top: 1%;
+        left: 15%;
+        top: 8%;
+    }
+    .tieude h1{
+        text-align: center;
+        font-size: 37px;
+      
+    }
+    .noidungtieude {
+        position: absolute;
+        top: 12%;
+      left: 11%;
+
+    }
+    .noidungtieude p{
+        font-size: 24px;
+        text-align: center;
+       
+        color: rgb(202, 225, 233);
+    }
+
+    body {
+        background-color: white;
+    }
+}
+@media only screen  and ( max-width: 767px) {
+    .banner{
+        font-size: 10px;
+    } 
+
+    .anhbanner {
+        display: cover;
+    }
+
+    .anhbanner img {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .tieude {
+        position: absolute;
+        margin-top: 1%;
+        left: 15%;
+        top: 7%;
+
+    }
+    .tieude h1{
+        text-align: center;
+        font-size: 17px;
+        width: 100%;
+        margin-top: 11%;
+    }
+    .noidungtieude {
+        position: absolute;
+        top: 4%;
+        left: 23%;
+
+    }
+    .noidungtieude p{
+        font-size: 8px;
+        text-align: center;
+        margin-top: 38%;
+        color: rgb(202, 225, 233);
+    }
+
+    body {
+        background-color: white;
+    }
 }
